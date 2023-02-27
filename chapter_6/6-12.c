@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <math.h>
 #define CUTOFF 5
 
 int main(void) 
 {
-    int i, j, n;
+    int i, j, n ;
     double sum;
 
     printf("Enter the number of elements: ");
