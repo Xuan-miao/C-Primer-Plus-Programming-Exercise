@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#define CUTOFF 5
 
 int main(void) 
 {
@@ -15,7 +16,7 @@ int main(void)
         for(i = 2; i <= n; i++)
         {
             printf(" + 1.0/%.1f", (double)i);
-            if(i == 5 && n > 5)
+            if(i == CUTOFF && n > CUTOFF)
             {
                 printf(" + ...");
                 break;
@@ -30,7 +31,7 @@ int main(void)
         for(i = 2;i <= n;i++)
         {
             printf(" %c 1.0/%.1f", i%2==0 ? '-':'+', (double)i);
-            if(i == 5 && n > 5)
+            if(i == CUTOFF && n > CUTOFF)
             {
                 printf(" + ...");
                 break;
