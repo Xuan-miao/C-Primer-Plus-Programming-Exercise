@@ -1,1 +1,1 @@
-C Primer Plus programming exercise
+C Primer Plus programming exercise (partial)
