@@ -3,7 +3,10 @@
 
 int main(void)
 {
-    double first[8], second[8], sum = 0;
+    double first[8];
+    double second[8];
+    double sum = 0.0;
+
     printf("Enter 8 numbers of the first array:");
     for(int i = 0;i<8;i++)
     {
@@ -11,7 +14,6 @@ int main(void)
         sum += first[i];
         second[i] = sum;
     }
-
     for(int i = 0;i<8;i++)
         printf("%7.2f", first[i]);
     printf("\n");

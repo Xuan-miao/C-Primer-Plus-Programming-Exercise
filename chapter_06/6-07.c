@@ -2,8 +2,8 @@
 
 int main(void) 
 {
-    char word[15];
     int i;
+    char word[15];
 
     printf("Enter the word: ");
     scanf("%s", word);

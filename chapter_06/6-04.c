@@ -9,4 +9,6 @@ int main(void)
             printf("%c", ch++);
         printf("\n");
     }
+
+    return 0;
 }

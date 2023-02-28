@@ -3,6 +3,7 @@
 int main(void)
 {
     int up, down;
+
     printf("Enter down values:");
     scanf("%d", &down);
     printf("Enter up values:");

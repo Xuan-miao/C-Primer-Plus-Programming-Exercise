@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-double fun(double x, double y)
-{
-    return (x-y)/(x*y);
-}
+double fun(double x, double y);
+
 int main(void)
 {
     double a, b;
@@ -14,4 +12,9 @@ int main(void)
     }
     
     return 0;
+}
+
+double fun(double x, double y)
+{
+    return (x-y)/(x*y);
 }

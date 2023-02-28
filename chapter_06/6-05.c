@@ -2,7 +2,6 @@
 
 int main(void)
 {
-    // printf("---\n");
     char ch;
     int i, j, count;
     printf("Enter an upper letter: ");

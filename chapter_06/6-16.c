@@ -4,8 +4,10 @@
 
 int main(void)
 {
-    double sum_daphne = 100, sum_deirdre = 100;
+    double sum_daphne = 100;
+    double sum_deirdre = 100;
     int count = 0;
+
     while (sum_daphne >= sum_deirdre)
     {
         sum_daphne += 100 * RATE_DAPHNE;

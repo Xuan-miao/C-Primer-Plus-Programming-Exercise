@@ -24,7 +24,6 @@ int main(void)
         for(j = 1; j <= n; j++)
             sum += 1.0 / j;
         printf(" = %f\n", sum);
-
         sum = 0;
         printf("1.0");
         for(i = 2;i <= n;i++)
