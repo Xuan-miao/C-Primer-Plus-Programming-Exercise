@@ -4,25 +4,25 @@ void chline(char ch, int i, int j);
 
 int main(void)
 {
-    int line, row;
+    int row, column;
     char ch;
   
     printf("char: ");
     scanf("%c", &ch);
-    printf("line: ");
-    scanf("%d", &line);
     printf("row: ");
     scanf("%d", &row);
-    chline('a', row, line);
+    printf("column: ");
+    scanf("%d", &column);
+    chrow('a', column, row);
 
     return 0;
 }
 
-void chline(char ch, int i, int j)
+void chrow(char ch, int i, int j)
 {
-    for(int line = 0;line < j;line++)
+    for(int row = 0;row < j;row++)
     {
-        for(int row = 0;row < i;row++)
+        for(int column = 0;column < i;column++)
             printf("%c", ch);
         printf("\n");
     }
